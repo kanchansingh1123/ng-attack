@@ -1,8 +1,39 @@
-<h1>
-  {{title}}
-</h1>
+<div style="height:100%; width:100%;">
+    
+  <div style="float:left; width:15%;"> 
+
+    
+  </div>
+
+  <div style="float:left; width:70%;">
+          
+       <md-input-container>
+      <input mdInput placeholder="Name" value="">
+      
+    </md-input-container>
+    <md-input-container>
+    <input mdInput placeholder="Mobile No" value="">
+    </md-input-container>
+    <button md-button color="primary">Sign Up</button>
+
+
+     </div>
+
+  <div style="float:left; width:15%;">
+
+        <button md-button color="primary" (click)="signIn('facebook')">Continue with facebook</button>
+        <button md-button color="primary" (click)="signIn('google')">Continue with Google+</button>
+       
+     </div>
+  
+
+  </div>
+
+
+<!--
 <span class="app-action" [class.m2app-dark]="isDarkTheme">
-  <button md-fab></button>
+  <button md-fab (click)="signIn('facebook')" ></button>
+  <button md-fab (click)="signIn('google')" ></button>
 </span>
 
 <md-card>
@@ -10,6 +41,7 @@
   <button md-raised-button>DIALOG</button>
   <button md-raised-button>SNACKBAR</button>
 </md-card>
+
 
 <div class="demo-icon">
   <p>
@@ -88,3 +120,4 @@
       <md-icon>more_vert</md-icon>
     </button>
   </md-toolbar>
+  -->
