@@ -10,7 +10,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MaterialModule} from '@angular/material';
 
 import { AppComponent } from './app.component';
-
+import {FileUploadModule} from 'ng2-file-upload';
 import { Angular2SocialLoginModule } from "angular2-social-login/lib/index.js";
 
 let providers = {
@@ -34,7 +34,8 @@ let providers = {
     BrowserAnimationsModule,
     Angular2SocialLoginModule.initWithProviders(providers),
     MaterialModule/*,
-    NoopAnimationsModule*/
+    NoopAnimationsModule*/,
+    FileUploadModule
   ],
   providers: [],
   bootstrap: [AppComponent]
