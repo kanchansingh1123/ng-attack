@@ -1,0 +1,40 @@
+<!-- START  SIGIN PAGE -->
+<md-grid-list cols="5" rowHeight="100px">
+   <!-- START HEADING-->
+   <md-grid-tile class='set-font'[colspan]="4" [rowspan]="2">Sign In
+   </md-grid-tile>
+   <!-- END HEADING-->
+   <!-- SIGNIN FIELDS-->
+   <md-grid-tile [colspan]="3" [rowspan]="2">
+   <form class="register-form">
+      <md-input-container class="full-width">
+         <input mdInput placeholder="Name">
+      </md-input-container>
+      <br/>
+      <md-input-container class="full-width">
+         <input mdInput placeholder="Mobile No">
+      </md-input-container>
+   </form>
+   </md-grid-tile>
+   <!--END SIGNIN FIELDS-->
+    <md-divider class="vertical-divider"></md-divider>
+   <!--START SOCIAL BUTTONS-->
+   <md-grid-tile [colspan]="1" [rowspan]="2">
+   <md-list>
+      <md-list-item>
+         <button md-raised-button class='set-background'>Continue with Facebook</button>
+      </md-list-item>
+      <md-list-item>
+         <button md-raised-button class='set-background'>Continue with Google</button>
+      </md-list-item>
+   </md-list>
+   </md-grid-tile>
+   <!--END SOCIAL BUTTONS-->
+   <!--START SIGN UP BUTTON-->
+   <md-grid-tile [colspan]="4" [rowspan]="1">
+   <button md-raised-button class='black-background'>Sign Up</button>
+   </md-grid-tile>
+   <!--END SIGN UP BUTTON-->
+</md-grid-list>
+
+<!-- END  SIGIN PAGE -->
